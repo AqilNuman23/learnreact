@@ -28,8 +28,16 @@ function Test() {
 ```
 
 2. export the function:
-   `export default Test`
+   ```
+   export default Test
+   ```
 3. import the function in `App.js` file:
-   `import Test from './function.js'`
+
+   ```
+   import Test from './function.js'
+   ```
+
 4. render the function in `App.js`
-   `<Test />`
+   ```
+   <Test />
+   ```
