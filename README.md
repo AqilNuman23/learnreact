@@ -16,7 +16,7 @@ Using npm:
 `npm install create-react-app -g`
 `create-react-app<project_name>`
 
-## Functional component
+## Functional Component
 
 1. Create `function.js` file in `src` folder
 2. Create a function
@@ -41,3 +41,8 @@ function Test() {
    ```
    <anyname />
    ```
+
+## Class Component
+
+- Basically ES6 classes
+- Can receive (props) and return them into html(jsx)
