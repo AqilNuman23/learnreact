@@ -72,3 +72,24 @@ return (
     </div>
 )
 ```
+
+- props children
+
+separate them into multiple lines in `return`
+
+```
+return (
+    <div>
+      <h1>Hello {props.name}</h1>
+      {props.children}
+    </div>
+  );
+```
+
+```
+<div className="App">
+  <Greet name="dog">
+    <p>This is children props</p>
+  </Greet>
+</div>
+```
