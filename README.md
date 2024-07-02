@@ -46,3 +46,11 @@ function Test() {
 
 - Basically ES6 classes
 - Can receive (props) and return them into html(jsx)
+
+## Take note
+
+- React create element
+
+```
+return React.createElement('tagName', 'object', 'tagValue')
+```
