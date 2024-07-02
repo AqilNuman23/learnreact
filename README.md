@@ -29,15 +29,15 @@ function Test() {
 
 2. export the function:
    ```
-   export default Test
+   export default function
    ```
 3. import the function in `App.js` file:
 
    ```
-   import Test from './function.js'
+   import anyname from './function.js'
    ```
 
 4. render the function in `App.js`
    ```
-   <Test />
+   <anyname />
    ```
