@@ -54,3 +54,21 @@ function Test() {
 ```
 return React.createElement('tagName', 'object', 'tagValue')
 ```
+
+- props use
+
+```
+const Greet = (props) => {
+  console.log(props);
+  return <h1>Hello {props.name}</h1>;
+};
+```
+
+```
+return (
+    <div className="App">
+      <Greet name="dog" />
+      <Greet name="cat" />
+    </div>
+)
+```
