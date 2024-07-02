@@ -12,7 +12,7 @@ function App() {
       </Greet>
       <Greet name="cat" />
 
-      {/* <Welcome /> */}
+      <Welcome />
       {/* <Hello /> */}
     </div>
   );

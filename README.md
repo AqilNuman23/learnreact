@@ -55,7 +55,7 @@ function Test() {
 return React.createElement('tagName', 'object', 'tagValue')
 ```
 
-- props use
+- props use in functional component
 
 ```
 const Greet = (props) => {
@@ -92,4 +92,10 @@ return (
     <p>This is children props</p>
   </Greet>
 </div>
+```
+
+- props use in class component using reserve `this` keyword
+
+```
+return <h1>Welcome {this.props.name}</h1>;
 ```
