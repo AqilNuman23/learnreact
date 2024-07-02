@@ -15,3 +15,21 @@ Using npx:
 Using npm:
 `npm install create-react-app -g`
 `create-react-app<project_name>`
+
+## Functional component
+
+1. Create `function.js` file in `src` folder
+2. Create a function
+
+```
+function Test() {
+  return <h1>Hello World</h1>;
+}
+```
+
+2. export the function:
+   `export default Test`
+3. import the function in `App.js` file:
+   `import Test from './function.js'`
+4. render the function in `App.js`
+   `<Test />`
